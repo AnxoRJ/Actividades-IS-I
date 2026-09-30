@@ -279,6 +279,9 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
+| NFR-08 | NFR-Q (Usabilidad) | La plataforma debe cumplir las pautas de accesibilidad para el contenido web WCAG 2.2, con nivel de conformidad AA. | G | - | - | - |
+| NFR-09 | NFR-Q (Integridad) | La plataforma realizará al menos una copia de seguridad diaria de la información de salud y de las recetas. | G | - | - | - |
+| NFR-10 | NFR-I (Interfaz de software) | La plataforma debe realizar la autenticación de una cuenta de google utilizando OAuth 2.0 u OpenID sobre HTTPS. | - | - | - | - |
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
