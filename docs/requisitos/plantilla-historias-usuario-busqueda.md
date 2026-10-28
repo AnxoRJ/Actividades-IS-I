@@ -15,7 +15,7 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como paciente, quiero buscar recetas aplicando filtros en la búsqueda, visualizar los resultados y organizarlos, para obtener una receta adecuada.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
@@ -25,44 +25,44 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Búsqueda mediante palabra clave.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como paciente, quiero buscar recetas mediante palabras clave o frases, para obtener una receta adecuada.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que introduzco una palabra clave, cuando realizo la búsqueda, entonces obtengo recetas que incluyen dicha palabra.
+- **CA-02.** Dado que introduzco una palabra clave y no existe ninguna receta con dicha palabra, cuando realizo la búsqueda, entonces recibo un mensaje avisando de que no hay ninguna receta con dicha palabra.
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Excluir ingredientes.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como paciente, quiero excluir ingredientes, para obtener recetas que no contengan dicho ingrediente.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; [FR]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que he excluido un ingrediente, cuando realizo una búsqueda, entonces obtengo las recetas que no contienen dicho ingrediente.
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** Búsqueda por idioma.
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como paciente, quiero realizar una búsqueda por idiomas de receta, para obtener una receta en mi idioma.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-003; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que introduzco un idioma, cuando realizo la búsqueda, entonces obtengo recetas solo en el idioma indicado.
+- **CA-02.** Dado que introduzco un idioma y no existen retas en ese idioma, cuando realizo la búsqueda, entonces recibo un mensaje de que no hay ninguna receta en dicho idioma..
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## Revisión INVEST
